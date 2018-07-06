@@ -107,7 +107,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   background: url("../img/bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
@@ -199,7 +199,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #call-to-action {
   background: url("../img/call_bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   padding: 70px 0px;
   position: relative;
@@ -242,7 +242,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature {
   background: url("../img/benz.jpg");
   background-position: 50% 94px;
-  width: 100%;
+  width: 100vw;
   display: block;
   position: relative;
   overflow: visible;
@@ -380,7 +380,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #global-header {
   background: url("../img/bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
@@ -629,7 +629,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider-contact {
   background: url("../img/bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
