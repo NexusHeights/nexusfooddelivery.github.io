@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://nexusfooddelivery.com/sitemap.xml
+Sitemap: https://blog.nexusfooddelivery.com/sitemap.xml
