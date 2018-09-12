@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://nexusfooddelivery.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-
-  <url>
     <loc>https://nexusfooddelivery.com/contact/</loc>
   </url>
 
@@ -22,15 +17,6 @@
 
   <url>
     <loc>https://nexusfooddelivery.com/partners/</loc>
-  </url>
-
-  <url>
-    <loc>https://nexusfooddelivery.com/service/</loc>
-  </url>
-
-  <url>
-    <loc>https://nexusfooddelivery.com/tags/</loc>
-    <priority>0</priority>
   </url>
 
 </urlset>
