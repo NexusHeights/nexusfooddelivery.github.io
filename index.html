@@ -1,530 +1,594 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Nexus Food Delivery - Cookeville TN Food Delivery Service</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Meta tags -->
-    <meta
-      name="description"
-      content="Nexus Food Delivery is a revolutionary new restaurant delivery service in Cookeville, TN. With over 40 restaurants in Cookeville to choose from and an affordable delivery fee, we provide the best meal delivery service in town!">
-    <meta name="author" content="Nexus Food Delivery">
+  <title>Nexus Food Delivery - Cookeville TN Food Delivery Service</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff674d">
-    <meta name="apple-mobile-web-app-title" content="Nexus Food Delivery">
-    <meta name="application-name" content="Nexus Food Delivery">
-    <meta name="msapplication-TileColor" content="#ff674d">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Meta tags -->
+  <meta name="description" content="Nexus Food Delivery is a revolutionary new restaurant delivery service in Cookeville, TN. With over 40 restaurants in Cookeville to choose from and an affordable delivery fee, we provide the best meal delivery service in town!">
+  <meta name="author" content="Nexus Food Delivery">
 
-    <!-- Bootstrap support -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/social.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff674d">
+  <meta name="apple-mobile-web-app-title" content="Nexus Food Delivery">
+  <meta name="application-name" content="Nexus Food Delivery">
+  <meta name="msapplication-TileColor" content="#ff674d">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-    <style>
+  <!-- Bootstrap support -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/social.css">
+
+  <style>
+    @media (min-width: 62em) {
+      body,
+      html {
+        font-size: 16px !important;
+      }
+    }
+
+    @media (min-width: 75em) {
+      body,
+      html {
+        font-size: 18px !important;
+      }
+    }
+
+    .jumbotron-fluid {
+      color: #FFFFFF !important;
+      background-color: #ff674d !important;
+      font-size: 16px;
       @media (min-width: 62em) {
-        body,
-        html {
-          font-size: 16px !important;
-        }
+        font-size: 20px;
       }
-      @media (min-width: 75em) {
-        body,
-        html {
-          font-size: 18px !important;
-        }
-      }
-      .jumbotron-fluid {
-        color: #FFFFFF !important;
-        background-color: #ff674d !important;
-        font-size: 16px;
-        @media (min-width: 62em) {
-          font-size: 20px;
-        }
-      }
-      .bg-restaurant {
-        color: #FFFFFF !important;
-        background-color: #ff876d !important;
-      }
-      .bg-restaurant-dark {
-        color: #FFFFFF !important;
-        background-color: #ff674d !important;
-      }
-      /* unvisited link */
-      a:link {
-        color: #A44334;
-      }
-      /* visited link */
-      a:visited {
-        color: #932212;
-      }
-      /* mouse over link */
-      a:hover {
-        color: #ffbeb3;
-      }
-      /* selected link */
-      a:active {
-        color: #BB4D3B;
-      }
-    </style>
+    }
 
-    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-75589263-5"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-75589263-5');
-    </script>
-  </head>
+    .bg-restaurant {
+      color: #FFFFFF !important;
+      background-color: #ff876d !important;
+    }
 
-  <body>
+    .bg-restaurant-dark {
+      color: #FFFFFF !important;
+      background-color: #ff674d !important;
+    }
 
-    <!-- Navbar stuff -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff674d;">
-      <a class="navbar-brand" href="#">Nexus Food Delivery</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nfdNav" aria-controls="nfdNav" aria-expanded="false" aria-label="Toggle navigation">
+    /* unvisited link */
+
+    a:link {
+      color: #A44334;
+    }
+
+    /* visited link */
+
+    a:visited {
+      color: #932212;
+    }
+
+    /* mouse over link */
+
+    a:hover {
+      color: #ffbeb3;
+    }
+
+    /* selected link */
+
+    a:active {
+      color: #BB4D3B;
+    }
+  </style>
+
+  <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-75589263-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-75589263-5');
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Navbar stuff -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff674d;">
+    <a class="navbar-brand" href="#">Nexus Food Delivery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nfdNav" aria-controls="nfdNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="nfdNav">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+    <div class="collapse navbar-collapse" id="nfdNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://nexusfooddelivery.com/apply">Apply to Deliver</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://nexusfooddelivery.com/contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://nexusfooddelivery.com/apply">Apply to Deliver</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://nexusfooddelivery.com/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <div class="jumbotron-fluid text-center">
-      <img src="https://nexusfooddelivery.com/img/concept.png" alt="Nexus Food Delivery logo." title="Nexus Food Delivery logo."></img>
-      <h1 class="display-6">Nexus Food Delivery</h1>
-      <p class="h2">A revolutionary new Cookeville, TN food delivery service.</p>
-      <div class="border-top my-3"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col col-12">
-            <p class="lead">We are a brand new food delivery service operating in Cookeville, TN. We are currently in a limited launch period while our apps get finished. What this basically means is that we are taking orders, but in a limited capacity while we
-              get prepared for the full launch with our mobile apps.</p>
-            <p class="lead">We are
-              <u>now delivering</u>
-              from over 40 Cookeville area restaurants for only a $4.00 delivery fee! From the nationally well-known favorites all the way to local Cookeville businesses, Nexus Food Delivery can bring you something you'll like for affordable prices.</p>
-            <p class="h2">
-              <b>Call or text
-                <u>423-438-3198</u>
+  <div class="jumbotron-fluid text-center">
+    <img src="https://nexusfooddelivery.com/img/concept.png" alt="Nexus Food Delivery logo." title="Nexus Food Delivery logo."></img>
+    <h1 class="display-6">Nexus Food Delivery</h1>
+    <p class="h2">A revolutionary new Cookeville, TN food delivery service.</p>
+    <div class="border-top my-3"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <p class="lead">We are a brand new food delivery service operating in Cookeville, TN. We are currently in a limited launch period while our apps get finished. What this basically means is that we are taking orders, but in a limited
+            capacity while we get prepared
+            for the full launch with our mobile apps.</p>
+          <p class="lead">We are
+            <u>now delivering</u> from over 40 Cookeville area restaurants for only a $4.00 delivery fee! From the nationally well-known favorites all the way to local Cookeville businesses, Nexus Food Delivery can bring you something you'll like
+            for
+            affordable prices.</p>
+          <p class="h2">
+            <b>Call or text
+                <u>(931)-588-1455</u>
                 to place an order!</b>
-            </p>
-          </div>
+          </p>
+          <div class="border-top my-3"></div>
+          <p id="openStatus" class="h2">We are open and currently taking orders!</p>
+
         </div>
       </div>
-      <br></br>
     </div>
-
     <br></br>
+  </div>
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-sm">
-          <p class="h3">
-            <u>
+  <br></br>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm">
+        <p class="h3">
+          <u>
               <b>How To Place an Order</b>
             </u>
-          </p>
-          <p class="lead">
-            Placing an order with Nexus Food Delivery is very simple! The only thing you will need to do is call or text
-            <u>
-              <b>423-438-3198</b>
-            </u>
-            and tell us what you would like to eat.
-            <br></br>
-            You will then be told the order total before the order is confirmed, so you have a chance to change your mind if you decide not to use it.
-            <br></br>
-            Next, you will simply need to give the confirmation and tell us where you want the food to be taken and your name. A driver will then be sent out to the location you provided with your food! It's as simple as that!
-          </p>
-        </div>
-        <div class="col-sm">
-          <p class="h3">
-            <u>
+        </p>
+        <p class="lead">
+          Placing an order with Nexus Food Delivery is very simple! The only thing you will need to do is call or text
+          <u>
+              <b>931-588-1455</b>
+            </u> and tell us what you would like to eat.
+          <br></br>
+          You will then be told the order total before the order is confirmed, so you have a chance to change your mind if you decide not to use it.
+          <br></br>
+          Next, you will simply need to give the confirmation and tell us where you want the food to be taken and your name. A driver will then be sent out to the location you provided with your food! It's as simple as that!
+        </p>
+      </div>
+      <div class="col-sm">
+        <p class="h3">
+          <u>
               <b>Pricing</b>
             </u>
-          </p>
-          <p class="lead">
-            Nexus Food Delivery has a base delivery fee of
-            <u>$4.00</u>
-            which makes us the
-            <b>most affordable option in Cookeville</b>!
-            <br></br>
-            If you're paying with a card, there is an extra
-            <u>$2.50</u>
-            charge to cover the cost of processing the card payment.
-            <br></br>
-            If you're paying with cash, you only pay the
-            <u>$4.00</u>
-            delivery fee as there is no service fee.
-            <br></br>
-            If you want delivery from more than one restaurant in a single order, there is a
-            <u>$2.00</u>
-            fee for each additional restaurant in the order. This goes entirely to the driver and helps them cover the cost of transportation.
-          </p>
-        </div>
-        <div class="col-sm">
-          <p class="h3">
-            <u>
+        </p>
+        <p class="lead">
+          Nexus Food Delivery has a base delivery fee of
+          <u>$4.00</u> which makes us the
+          <b>most affordable option in Cookeville</b>!
+          <br></br>
+          If you're paying with a card, there is an extra
+          <u>$2.50</u> charge to cover the cost of processing the card payment.
+          <br></br>
+          If you're paying with cash, you only pay the
+          <u>$4.00</u> delivery fee as there is no service fee.
+          <br></br>
+          If you want delivery from more than one restaurant in a single order, there is a
+          <u>$2.00</u> fee for each additional restaurant in the order. This goes entirely to the driver and helps them cover the cost of transportation.
+        </p>
+      </div>
+      <div class="col-sm">
+        <p class="h3">
+          <u>
               <b>Delivery Radius</b>
             </u>
-          </p>
-          <p class="lead">
-            Nexus Food Delivery delivers to any address within a 7 mile radius of the geographical center of Cookeville, TN. This covers the entirety of city limits and most of Algood.
-            <br></br>
-            Deliveries outside this radius are handled on a case-by-case basis and may incur an extra
-            <u>$2.50</u>
-            fee depending on the distance outside the radius.
-            <br></br>
-            If you are in doubt about whether or not you can get deliveries from us, please give us a call or text at the number above. In the future, our mobile app will calculate this automatically.
-          </p>
-        </div>
-        <div class="col-sm">
-          <p class="h3">
-            <u>
+        </p>
+        <p class="lead">
+          Nexus Food Delivery delivers to any address within a 7 mile radius of the geographical center of Cookeville, TN. This covers the entirety of city limits and most of Algood.
+          <br></br>
+          Deliveries outside this radius are handled on a case-by-case basis and may incur an extra
+          <u>$2.50</u> fee depending on the distance outside the radius.
+          <br></br>
+          If you are in doubt about whether or not you can get deliveries from us, please give us a call or text at the number above. In the future, our mobile app will calculate this automatically.
+        </p>
+      </div>
+      <div class="col-sm">
+        <p class="h3">
+          <u>
               <b>Tipping Drivers</b>
             </u>
-          </p>
-          <p class="lead">
-            Drivers are paid a 50/50 split of the profit that Nexus Food Delivery makes. That said, we still encourage you to leave a tip for your driver if they provided you with excellent service.
-            <br></br>
-            If you are paying with a card, you will have the option when placing an order whether or not to leave a tip on the card payment. Please be aware that a tip cannot be applied to a card after the delivery has been made.
-            <br></br>
-            Tipping is entirely optional and it is up to you whether or not you want to leave a tip.
-          </p>
-        </div>
+        </p>
+        <p class="lead">
+          Drivers are paid a 50/50 split of the profit that Nexus Food Delivery makes. That said, we still encourage you to leave a tip for your driver if they provided you with excellent service.
+          <br></br>
+          If you are paying with a card, you will have the option when placing an order whether or not to leave a tip on the card payment. Please be aware that a tip cannot be applied to a card after the delivery has been made.
+          <br></br>
+          Tipping is entirely optional and it is up to you whether or not you want to leave a tip.
+        </p>
       </div>
     </div>
+  </div>
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-sm">
-          <p class="h2">
-            <u>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm">
+        <p class="h2">
+          <u>
               <b>Restaurant List</b>
             </u>
-          </p>
-          <p class="lead">
-            Nexus Food Delivery delivers from any of these restaurants, all for a $4.00 delivery fee!
-            <br></br>
-            If you don't see your favorite restaurant on this list, request it by emailing us at
-            <a href="mailto:contact@nexusfooddelivery.com">our contact email</a>
-            or by giving us a call!
-          </p>
-        </div>
+        </p>
+        <p class="lead">
+          Nexus Food Delivery delivers from any of these restaurants, all for a $4.00 delivery fee!
+          <br></br>
+          If you don't see your favorite restaurant on this list, request it by emailing us at
+          <a href="mailto:contact@nexusfooddelivery.com">our contact email</a> or by giving us a call!
+        </p>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/persis_indian_grill.png" class="img-fluid"></img>
-          <h3>Persis Indian Grill</h3>
-          <h4>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/persis_indian_grill.png" class="img-fluid"></img>
+        <h3>Persis Indian Grill</h3>
+        <h4>
             <a href="http://www.persisindiangrill.com/#ourfood">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/sakura.png" class="img-fluid"></img>
-          <h3>Sakura Hibachi Express</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/sakura.png" class="img-fluid"></img>
+        <h3>Sakura Hibachi Express</h3>
+        <h4>
             <a href="http://www.sakurahibachiexpress.com/menu.aspx">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/ralphs_donut_shop.png" class="img-fluid"></img>
-          <h3>Ralph's Donut Shop</h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/el_tapatio.png" class="img-fluid"></img>
-          <h3>El Tapatio</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/ralphs_donut_shop.png" class="img-fluid"></img>
+        <h3>Ralph's Donut Shop</h3>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/el_tapatio.png" class="img-fluid"></img>
+        <h3>El Tapatio</h3>
+        <h4>
             <a href="http://www.eltapatiotn.com/el-tapatio-menu">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/krispy_krunchy_chicken.png" class="img-fluid"></img>
-          <h3>Krispy Krunchy Chicken</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/krispy_krunchy_chicken.png" class="img-fluid"></img>
+        <h3>Krispy Krunchy Chicken</h3>
+        <h4>
             <a href="https://www.krispykrunchy.com/menu/">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/burger_king.png" class="img-fluid"></img>
-          <h3>Burger King</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/burger_king.png" class="img-fluid"></img>
+        <h3>Burger King</h3>
+        <h4>
             <a href="https://www.bk.com/menu">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/world_foods.png" class="img-fluid"></img>
-          <h3>World Foods</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/world_foods.png" class="img-fluid"></img>
+        <h3>World Foods</h3>
+        <h4>
             <a href="http://places.singleplatform.com/world-foods-2/menu">Menu Link (Single slices of pizza are
               <u>not available</u>)</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/big_tonys_pizza.png" class="img-fluid"></img>
-          <h3>Big Tony's Pizza</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/big_tonys_pizza.png" class="img-fluid"></img>
+        <h3>Big Tony's Pizza</h3>
+        <h4>
             <a href="https://bigtonyspizza.pizza">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/san_antonio_taco_company.png" class="img-fluid"></img>
-          <h3>San Antonio Taco Company</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/san_antonio_taco_company.png" class="img-fluid"></img>
+        <h3>San Antonio Taco Company</h3>
+        <h4>
             <a href="http://www.thesatco.com/san-antonio-taco-company-fresh-tex-mex-menu.cfm">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/cicis_pizza.png" class="img-fluid"></img>
-          <h3>Cici's Pizza</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/cicis_pizza.png" class="img-fluid"></img>
+        <h3>Cici's Pizza</h3>
+        <h4>
             <a href="https://www.cicis.com/menu/pizza">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/moogies_bbq.png" class="img-fluid"></img>
-          <h3>Moogie's BBQ</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/moogies_bbq.png" class="img-fluid"></img>
+        <h3>Moogie's BBQ</h3>
+        <h4>
             <a href="https://www.zomato.com/cookeville-tn/moogies-barbeque-cookeville/menu">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/gondola_house_pizza.png" class="img-fluid"></img>
-          <h3>Gondola House Pizza</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/gondola_house_pizza.png" class="img-fluid"></img>
+        <h3>Gondola House Pizza</h3>
+        <h4>
             <a href="https://irp-cdn.multiscreensite.com/0fb89c2f/files/uploaded/Gondola%20Pizza%20menu%20cookeville.pdf">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/pharaohs_grill.png" class="img-fluid"></img>
-          <h3>Pharaoh's Grill</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/pharaohs_grill.png" class="img-fluid"></img>
+        <h3>Pharaoh's Grill</h3>
+        <h4>
             <a href="https://www.facebook.com/pharaohsgrill/app/1637598386514901/">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/chick_fil_a.png" class="img-fluid"></img>
-          <h3>Chick-fil-A Cookeville</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/chick_fil_a.png" class="img-fluid"></img>
+        <h3>Chick-fil-A Cookeville</h3>
+        <h4>
             <a href="https://openmenu.com/restaurant/951b2cd6-2169-11e3-b6cf-00163eeae34c">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/t_mart_chesters_chicken.png" class="img-fluid"></img>
-          <h3>Chester's Chicken/T-Mart</h3>
-          <h4>Call Us for the Menu</h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/steak_n_shake.png" class="img-fluid"></img>
-          <h3>Steak 'n Shake</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/t_mart_chesters_chicken.png" class="img-fluid"></img>
+        <h3>Chester's Chicken/T-Mart</h3>
+        <h4>Call Us for the Menu</h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/steak_n_shake.png" class="img-fluid"></img>
+        <h3>Steak 'n Shake</h3>
+        <h4>
             <a href="https://orderonline.steaknshake.com/o/restaurant/18261">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/blue_coast_burrito.png" class="img-fluid"></img>
-          <h3>Blue Coast Burrito</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/blue_coast_burrito.png" class="img-fluid"></img>
+        <h3>Blue Coast Burrito</h3>
+        <h4>
             <a href="http://bluecoastburrito.com/menu/">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/shoneys.png" class="img-fluid"></img>
-          <h3>Shoney's</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/shoneys.png" class="img-fluid"></img>
+        <h3>Shoney's</h3>
+        <h4>
             <a href="https://www.shoneys.com/menu.html">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/ihop.png" class="img-fluid"></img>
-          <h3>IHOP</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/ihop.png" class="img-fluid"></img>
+        <h3>IHOP</h3>
+        <h4>
             <a href="https://www.ihop.com/en/menu">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/panda_garden_buffet.png" class="img-fluid"></img>
-          <h3>Panda Garden Buffet</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/panda_garden_buffet.png" class="img-fluid"></img>
+        <h3>Panda Garden Buffet</h3>
+        <h4>
             <a href="http://www.pandagardenbuffetcookeville.com/menu.aspx">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/hooligans.png" class="img-fluid"></img>
-          <h3>Hooligan's Half-Irish Pub</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/hooligans.png" class="img-fluid"></img>
+        <h3>Hooligan's Half-Irish Pub</h3>
+        <h4>
             <a href="https://openmenu.com/restaurant/fef56284-6c0f-11e3-aee9-00163eeae34c">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/waffle_house.png" class="img-fluid"></img>
-          <h3>Waffle House</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/waffle_house.png" class="img-fluid"></img>
+        <h3>Waffle House</h3>
+        <h4>
             <a href="https://www.wafflehouse.com/waffle-house-menu/">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/cookout.png" class="img-fluid"></img>
-          <h3>Cookout</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/cookout.png" class="img-fluid"></img>
+        <h3>Cookout</h3>
+        <h4>
             <a href="https://cookout.com/menu/">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/marble_slab_creamery.png" class="img-fluid"></img>
-          <h3>Marble Slab Creamery</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/marble_slab_creamery.png" class="img-fluid"></img>
+        <h3>Marble Slab Creamery</h3>
+        <h4>
             <a href="http://www.marbleslab.com/menu/">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/cinco_amigos.png" class="img-fluid"></img>
-          <h3>Cinco Amigos</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/cinco_amigos.png" class="img-fluid"></img>
+        <h3>Cinco Amigos</h3>
+        <h4>
             <a href="https://foursquare.com/v/cinco-amigos/4b915993f964a52044b533e3/menu">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/great_american_cookies.png" class="img-fluid"></img>
-          <h3>Great American Cookies</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/great_american_cookies.png" class="img-fluid"></img>
+        <h3>Great American Cookies</h3>
+        <h4>
             <a href="https://www.greatamericancookies.com/menu/">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/baskin_robbins.png" class="img-fluid"></img>
-          <h3>Baskin-Robbins</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/baskin_robbins.png" class="img-fluid"></img>
+        <h3>Baskin-Robbins</h3>
+        <h4>
             <a href="https://order.baskinrobbins.com/menu/baskin-robbins-344517">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/fuji.png" class="img-fluid"></img>
-          <h3>Fuji</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/fuji.png" class="img-fluid"></img>
+        <h3>Fuji</h3>
+        <h4>
             <a href="https://www.facebook.com/pg/FujiHibachiSushi/photos/?tab=album&album_id=898214990311048">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/village_kitchen.png" class="img-fluid"></img>
-          <h3>The Village Kitchen</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/village_kitchen.png" class="img-fluid"></img>
+        <h3>The Village Kitchen</h3>
+        <h4>
             <a href="http://places.singleplatform.com/village-kitchen-11/menu">Menu Link</a>
           </h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
-          <img src="https://nexusfooddelivery.com/img/rest/india_palace.png" class="img-fluid"></img>
-          <h3>India Palace</h3>
-          <h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/india_palace.png" class="img-fluid"></img>
+        <h3>India Palace</h3>
+        <h4>
             <a href="http://www.indiapalacecookeville.com/Menu.html">Menu Link</a>
           </h4>
-        </div>
-        <div class="col text-center bg-restaurant">
-          <img src="https://nexusfooddelivery.com/img/rest/20_degrees_frozen_yogurt_lounge.png" class="img-fluid"></img>
-          <h3>20 Degrees Frozen Yogurt Lounge</h3>
-          <h4>Premade Quarts of Froyo Are Available for
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/bravo_cafe_and_grill.png" class="img-fluid"></img>
+        <h3>Bravo Cafe and Grill</h3>
+        <h4>
+            <a href="https://www.zomato.com/cookeville-tn/bravo-cafe-grill-cookeville/menu">Menu Link</a>
+          </h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/bar_on_the_green.png" class="img-fluid"></img>
+        <h3>Bar on the Green At Belle Acres</h3>
+        <h4>
+            <a href="http://www.baronthegreen.com/our-menu/">Menu Link</a>
+          </h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/el_magueyal.png" class="img-fluid"></img>
+        <h3>El Magueyal</h3>
+        <h4>
+            <a href="https://www.menupix.com/menudirectory/menu.php?id=251248041">Menu Link</a>
+          </h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/fazolis.png" class="img-fluid"></img>
+        <h3>Fazoli's</h3>
+        <h4>
+            <a href="https://locations.fazolis.com/tn/cookeville/1063-south-walnut/menu.html">Menu Link</a>
+          </h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/spankies.png" class="img-fluid"></img>
+        <h3>Spankie's</h3>
+        <h4>
+            <a href="http://spankiesrestaurant.com/menus">Menu Link</a>
+          </h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 text-center bg-restaurant-dark">
+        <img src="https://nexusfooddelivery.com/img/rest/long_john_silvers.png" class="img-fluid"></img>
+        <h3>Long John Silver's</h3>
+        <h4>
+            <a href="https://www.allmenus.com/tn/cookeville/200226-long-john-silvers/menu/">Menu Link</a>
+          </h4>
+      </div>
+      <div class="col text-center bg-restaurant">
+        <img src="https://nexusfooddelivery.com/img/rest/20_degrees_frozen_yogurt_lounge.png" class="img-fluid"></img>
+        <h3>20 Degrees Frozen Yogurt Lounge</h3>
+        <h4>Premade Quarts of Froyo Are Available for
             <u>$7</u>
           </h4>
-          <h3>Flavors</h3>
-          <h3>Permanent Flavors</h3>
-          <h4>Triple Chocolate</h4>
-          <h4>Cake Batter</h4>
-          <h4>Tahitian Vanilla</h4>
-          <h4>California Tart</h4>
-          <h3>Rotating Flavors</h3>
-          <h4>Almond Milk</h4>
-          <h4>Orange Creamsicle</h4>
-          <h4>Espresso</h4>
-          <h4>Only 8</h4>
-        </div>
+        <h3>Flavors</h3>
+        <h3>Permanent Flavors</h3>
+        <h4>Triple Chocolate</h4>
+        <h4>Cake Batter</h4>
+        <h4>Tahitian Vanilla</h4>
+        <h4>California Tart</h4>
+        <h3>Rotating Flavors</h3>
+        <h4>Almond Milk</h4>
+        <h4>Orange Creamsicle</h4>
+        <h4>Espresso</h4>
+        <h4>Only 8</h4>
       </div>
     </div>
+  </div>
 
-    <br></br>
+  <br></br>
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-12">
-          <p class="h1">
-            <b>Place your order by calling or texting
-              <u>(423)-438-3198</u>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-12">
+        <p class="h1">
+          <b>Place your order by calling or texting
+              <u>(931)-588-1455</u>
               today!</b>
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-          <p class="h3">
-            <u>
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <p class="h3">
+          <u>
               <b>Authorization</b>
             </u>
-          </p>
-          <p class="lead">
-            <b>By calling or texting in, you are authorizing Nexus Heights (acting as Nexus Food Delivery) to send a driver on your behalf to pay for and pick up your order and deliver it to you. Nexus Heights does not represent or claim to represent these
+        </p>
+        <p class="lead">
+          <b>By calling or texting in, you are authorizing Nexus Heights (acting as Nexus Food Delivery) to send a driver on your behalf to pay for and pick up your order and deliver it to you. Nexus Heights does not represent or claim to represent these
               restaurants in any way. Thank you!</b>
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-          <p class="h3">
-            <u>
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <p class="h3">
+          <u>
               <b>Food Safety Warning</b>
             </u>
-          </p>
-          <p class="lead">
-            Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness.
-          </p>
-        </div>
+        </p>
+        <p class="lead">
+          Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness.
+        </p>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="page-footer">
-      <div class="col text-center">
-        <ul class="social-network social-circle">
-          <li>
-            <a href="https://facebook.com/NexusFoodDelivery" title="Facebook">
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="col text-center">
+      <ul class="social-network social-circle">
+        <li>
+          <a href="https://facebook.com/NexusFoodDelivery" title="Facebook">
               <i class="fa fa-facebook"></i>
             </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/Nexus_FD" title="Twitter">
+        </li>
+        <li>
+          <a href="https://twitter.com/Nexus_FD" title="Twitter">
               <i class="fa fa-twitter"></i>
             </a>
-          </li>
-          <li>
-            <a href="https://instagram.com/NexusFoodDelivery" title="Twitter">
+        </li>
+        <li>
+          <a href="https://instagram.com/NexusFoodDelivery" title="Twitter">
               <i class="fa fa-instagram"></i>
             </a>
-          </li>
-        </ul>
-      </div>
-      <p class="text-center">Nexus Food Delivery</p>
-      <div class="footer-copyright text-center py-3">© 2018 Nexus Heights</div>
-    </footer>
+        </li>
+      </ul>
+    </div>
+    <p class="text-center">Nexus Food Delivery</p>
+    <div class="footer-copyright text-center py-3">© 2018 Nexus Heights</div>
+  </footer>
 
-    <!-- Bootstrap scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  <!-- Times open 8AM to 11PM -->
+  <script>
+    var today = new Date().getHours();
+    if (today >= 8 && today <= 23) {
+      document.getElementById("openStatus").innerHTML = "We are <u>OPEN</u> and accepting orders!";
+    } else {
+      document.getElementById("openStatus").innerHTML = "We are <u>CLOSED</u> and are not accepting orders! We re-open at 8AM tomorrow morning.";
+    }
+  </script>
+
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
 </html>
