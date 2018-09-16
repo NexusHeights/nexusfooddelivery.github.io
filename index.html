@@ -139,7 +139,7 @@
             <u>now delivering</u> from over 40 Cookeville area restaurants for only a $4.00 delivery fee! From the nationally well-known favorites all the way to local Cookeville businesses, Nexus Food Delivery can bring you something you'll like
             for
             affordable prices.</p>
-          <p class="h2">
+          <p class="h2" id="number1">
             <b>Call or text
                 <u>(931)-588-1455</u>
                 to place an order!</b>
@@ -163,7 +163,7 @@
               <b>How To Place an Order</b>
             </u>
         </p>
-        <p class="lead">
+        <p class="lead" id="number2">
           Placing an order with Nexus Food Delivery is very simple! The only thing you will need to do is call or text
           <u>
               <b>931-588-1455</b>
@@ -520,7 +520,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-12">
-        <p class="h1">
+        <p class="h1" id="number3">
           <b>Place your order by calling or texting
               <u>(931)-588-1455</u>
               today!</b>
@@ -580,12 +580,24 @@
     var today = new Date().getHours();
     if (today >= 8 && today <= 24) {
       document.getElementById("openStatus").innerHTML = "We are <u>OPEN</u> and accepting orders!";
+      document.getElementById("number1").innerHTML = "<b>Call or text <u>(931)-588-1455</u> to place an order!</b>";
+      document.getElementById("number2").innerHTML =
+        "Placing an order with Nexus Food Delivery is very simple! The only thing you will need to do is call or text <u> <b>931-588-1455</b> </u> and tell us what you would like to eat. <br></br> You will then be told the order total before the order is confirmed, so you have a chance to change your mind if you decide not to use it. <br></br> Next, you will simply need to give the confirmation and tell us where you want the food to be taken and your name. A driver will then be sent out to the location you provided with your food! It's as simple as that!";
+      document.getElementById("number3").innerHTML = "<b>Place your order by calling or texting <u>(931)-588-1455</u> today!</b>";
     }
     if (today >= 0 && today <= 4) {
       document.getElementById("openStatus").innerHTML = "We are <u>OPEN</u> and accepting orders as part of our late night delivery program. There may be an increased fee for placing an order during this time.";
+      document.getElementById("number1").innerHTML = "<b>Call or text <u>(615)-400-3334</u> to place an order!</b>";
+      document.getElementById("number2").innerHTML =
+        "Placing an order with Nexus Food Delivery is very simple! The only thing you will need to do is call or text <u> <b>615-400-3334</b> </u> and tell us what you would like to eat. <br></br> You will then be told the order total before the order is confirmed, so you have a chance to change your mind if you decide not to use it. <br></br> Next, you will simply need to give the confirmation and tell us where you want the food to be taken and your name. A driver will then be sent out to the location you provided with your food! It's as simple as that!";
+      document.getElementById("number3").innerHTML = "<b>Place your order by calling or texting <u>(615)-400-3334</u> today!</b>";
     }
     if (today >= 4 && today <= 8) {
       document.getElementById("openStatus").innerHTML = "We are <u>CLOSED</u> and are not accepting orders! We re-open at 8AM tomorrow morning.";
+      document.getElementById("number1").innerHTML = "<b>Call or text <u>(931)-588-1455</u> to place an order!</b>";
+      document.getElementById("number2").innerHTML =
+        "Placing an order with Nexus Food Delivery is very simple! The only thing you will need to do is call or text <u> <b>931-588-1455</b> </u> and tell us what you would like to eat. <br></br> You will then be told the order total before the order is confirmed, so you have a chance to change your mind if you decide not to use it. <br></br> Next, you will simply need to give the confirmation and tell us where you want the food to be taken and your name. A driver will then be sent out to the location you provided with your food! It's as simple as that!";
+      document.getElementById("number3").innerHTML = "<b>Place your order by calling or texting <u>(931)-588-1455</u> today!</b>";
     }
   </script>
 
