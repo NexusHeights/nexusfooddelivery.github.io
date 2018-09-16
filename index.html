@@ -578,9 +578,13 @@
   <!-- Times open 8AM to 11PM -->
   <script>
     var today = new Date().getHours();
-    if (today >= 8 && today <= 23) {
+    if (today >= 8 && today <= 24) {
       document.getElementById("openStatus").innerHTML = "We are <u>OPEN</u> and accepting orders!";
-    } else {
+    }
+    if (today >= 0 && today <= 4) {
+      document.getElementById("openStatus").innerHTML = "We are <u>OPEN</u> and accepting orders as part of our late night delivery program. There may be an increased fee for placing an order during this time.";
+    }
+    if (today >= 4 && today <= 8) {
       document.getElementById("openStatus").innerHTML = "We are <u>CLOSED</u> and are not accepting orders! We re-open at 8AM tomorrow morning.";
     }
   </script>
